@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="Testing out pycharms github integration">
-      <change afterPath="$PROJECT_DIR$/basicmath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings.py" afterDir="false" />
+    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="Changed structure to seperate basic math and strings">
+      <change afterPath="$PROJECT_DIR$/password_checker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hihi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/strings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.hihi.executor": "Run",
+    "Python.password_checker.executor": "Run",
     "Python.strings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -85,7 +85,7 @@
       <updated>1763777279042</updated>
       <workItem from="1763777292330" duration="136000" />
       <workItem from="1763777447602" duration="7166000" />
-      <workItem from="1764045012486" duration="4618000" />
+      <workItem from="1764045012486" duration="9743000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out pycharms github integration">
       <option name="closed" value="true" />
@@ -103,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764045173553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed structure to seperate basic math and strings">
+      <option name="closed" value="true" />
+      <created>1764135861877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764135861877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,10 +119,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing out pycharms github integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing out pycharms github integration" />
+    <MESSAGE value="Changed structure to seperate basic math and strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed structure to seperate basic math and strings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$strings.coverage" NAME="strings Coverage Results" MODIFIED="1764135728941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$strings.coverage" NAME="strings Coverage Results" MODIFIED="1764231397694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$hihi.coverage" NAME="hihi Coverage Results" MODIFIED="1764048307745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$password_checker.coverage" NAME="password_checker Coverage Results" MODIFIED="1764232701884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
