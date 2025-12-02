@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="Changed structure to seperate basic math and strings">
-      <change afterPath="$PROJECT_DIR$/password_checker.py" afterDir="false" />
+    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="further string functions and a small example of password checker">
+      <change afterPath="$PROJECT_DIR$/adventCodeDay1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/strings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +50,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.adventCodeDay1.executor": "Run",
+    "Python.dictionary.executor": "Run",
     "Python.hihi.executor": "Run",
+    "Python.matrix.executor": "Run",
     "Python.password_checker.executor": "Run",
+    "Python.set.executor": "Run",
     "Python.strings.executor": "Run",
+    "Python.tuples.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -85,7 +93,7 @@
       <updated>1763777279042</updated>
       <workItem from="1763777292330" duration="136000" />
       <workItem from="1763777447602" duration="7166000" />
-      <workItem from="1764045012486" duration="9743000" />
+      <workItem from="1764045012486" duration="29405000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out pycharms github integration">
       <option name="closed" value="true" />
@@ -111,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764135861877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="further string functions and a small example of password checker">
+      <option name="closed" value="true" />
+      <created>1764232743167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764232743167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,11 +136,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing out pycharms github integration" />
     <MESSAGE value="Changed structure to seperate basic math and strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed structure to seperate basic math and strings" />
+    <MESSAGE value="further string functions and a small example of password checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="further string functions and a small example of password checker" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1764565890709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1764482462128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$adventCodeDay1.coverage" NAME="adventCodeDay1 Coverage Results" MODIFIED="1764618210860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$set.coverage" NAME="set Coverage Results" MODIFIED="1764705537884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$strings.coverage" NAME="strings Coverage Results" MODIFIED="1764231397694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$hihi.coverage" NAME="hihi Coverage Results" MODIFIED="1764048307745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1764473658530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$password_checker.coverage" NAME="password_checker Coverage Results" MODIFIED="1764232701884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
