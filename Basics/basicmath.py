@@ -30,3 +30,5 @@ String
 '''
 print(long_string)
 
+x = "Hello"[0]
+print(x)
