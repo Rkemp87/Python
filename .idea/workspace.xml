@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="Decorator Section">
-      <change afterPath="$PROJECT_DIR$/Advanced 4 - Error Handling/errors.py" afterDir="false" />
+    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="Error Handling">
+      <change afterPath="$PROJECT_DIR$/Advanced 5 - Generators/fibonacciExercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced 5 - Generators/generators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +58,12 @@
     "Python.duplicate_exercise.executor": "Run",
     "Python.errors.executor": "Run",
     "Python.extendingListExercise.executor": "Run",
+    "Python.fibonacciExercise.executor": "Run",
     "Python.first_gui.executor": "Run",
     "Python.function_exercise.executor": "Run",
     "Python.functionalProgramming.executor": "Run",
     "Python.functions.executor": "Run",
+    "Python.generators.executor": "Run",
     "Python.hihi.executor": "Run",
     "Python.lambdaExpressions.executor": "Run",
     "Python.listComprehensions.executor": "Run",
@@ -121,7 +124,7 @@
       <workItem from="1764799295281" duration="10378000" />
       <workItem from="1764987288238" duration="24443000" />
       <workItem from="1765509101407" duration="20423000" />
-      <workItem from="1765857954329" duration="26697000" />
+      <workItem from="1765857954329" duration="33809000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out pycharms github integration">
       <option name="closed" value="true" />
@@ -195,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766208352958</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Error Handling">
+      <option name="closed" value="true" />
+      <created>1766293188415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766293188415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +221,8 @@
     <MESSAGE value="adding three exercises and basics of functions" />
     <MESSAGE value="Finished with advanced 1. Covers all the basics of oop." />
     <MESSAGE value="Decorator Section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator Section" />
+    <MESSAGE value="Error Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error Handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,6 +268,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$password_checker.coverage" NAME="password_checker Coverage Results" MODIFIED="1764232701884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$adventCodeDay1.coverage" NAME="adventCodeDay1 Coverage Results" MODIFIED="1764618210860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1766207476410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 3 - Decorators" />
+    <SUITE FILE_PATH="coverage/PythonProject$fibonacciExercise.coverage" NAME="fibonacciExercise Coverage Results" MODIFIED="1766387768028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 5 - Generators" />
     <SUITE FILE_PATH="coverage/PythonProject$lambdaExpressions.coverage" NAME="lambdaExpressions Coverage Results" MODIFIED="1766030867020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
     <SUITE FILE_PATH="coverage/PythonProject$walrus_operator.coverage" NAME="walrus_operator Coverage Results" MODIFIED="1765340159555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$functionalProgramming.coverage" NAME="functionalProgramming Coverage Results" MODIFIED="1765941426847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
@@ -263,6 +276,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1764482462128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$basicmath.coverage" NAME="basicmath Coverage Results" MODIFIED="1765343263825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basics" />
     <SUITE FILE_PATH="coverage/PythonProject$function_exercise.coverage" NAME="function_exercise Coverage Results" MODIFIED="1765245182214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$generators.coverage" NAME="generators Coverage Results" MODIFIED="1766386190137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 5 - Generators" />
     <SUITE FILE_PATH="coverage/PythonProject$first_gui.coverage" NAME="first_gui Coverage Results" MODIFIED="1765070568486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/PythonProject$duplicate_exercise.coverage" NAME="duplicate_exercise Coverage Results" MODIFIED="1765166243701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/PythonProject$oop.coverage" NAME="oop Coverage Results" MODIFIED="1765774452461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 1" />
