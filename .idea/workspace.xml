@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="Error Handling">
-      <change afterPath="$PROJECT_DIR$/Advanced 5 - Generators/fibonacciExercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced 5 - Generators/generators.py" afterDir="false" />
+    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="Generator section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced 2 Functional Programming/comprehensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced 2 -  Functional Programming/comprehensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced 2 Functional Programming/comprehensionsExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced 2 -  Functional Programming/comprehensionsExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced 2 Functional Programming/functionalProgramming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced 2 -  Functional Programming/functionalProgramming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced 2 Functional Programming/imposterSyndromeExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced 2 -  Functional Programming/imposterSyndromeExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced 2 Functional Programming/lambdaExpressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced 2 -  Functional Programming/lambdaExpressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced 2 Functional Programming/mapFilterZipReduceExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced 2 -  Functional Programming/mapFilterZipReduceExercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +87,11 @@
     "Python.walrus_operator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/rebec/PycharmProjects/PythonProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,6 +99,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,8 +115,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
@@ -124,7 +133,8 @@
       <workItem from="1764799295281" duration="10378000" />
       <workItem from="1764987288238" duration="24443000" />
       <workItem from="1765509101407" duration="20423000" />
-      <workItem from="1765857954329" duration="33809000" />
+      <workItem from="1765857954329" duration="36048000" />
+      <workItem from="1766438416977" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out pycharms github integration">
       <option name="closed" value="true" />
@@ -206,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766293188415</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Generator section">
+      <option name="closed" value="true" />
+      <created>1766388086048</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766388086048</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +240,8 @@
     <MESSAGE value="Finished with advanced 1. Covers all the basics of oop." />
     <MESSAGE value="Decorator Section" />
     <MESSAGE value="Error Handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error Handling" />
+    <MESSAGE value="Generator section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generator section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,7 +287,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$password_checker.coverage" NAME="password_checker Coverage Results" MODIFIED="1764232701884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$adventCodeDay1.coverage" NAME="adventCodeDay1 Coverage Results" MODIFIED="1764618210860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1766207476410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 3 - Decorators" />
-    <SUITE FILE_PATH="coverage/PythonProject$fibonacciExercise.coverage" NAME="fibonacciExercise Coverage Results" MODIFIED="1766387768028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 5 - Generators" />
+    <SUITE FILE_PATH="coverage/PythonProject$fibonacciExercise.coverage" NAME="fibonacciExercise Coverage Results" MODIFIED="1766387953396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 5 - Generators" />
     <SUITE FILE_PATH="coverage/PythonProject$lambdaExpressions.coverage" NAME="lambdaExpressions Coverage Results" MODIFIED="1766030867020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
     <SUITE FILE_PATH="coverage/PythonProject$walrus_operator.coverage" NAME="walrus_operator Coverage Results" MODIFIED="1765340159555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$functionalProgramming.coverage" NAME="functionalProgramming Coverage Results" MODIFIED="1765941426847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
