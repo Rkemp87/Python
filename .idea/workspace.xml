@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="testing new pycharm">
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/builtin_modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/shopping/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/shopping/more_shopping/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/shopping/more_shopping/shopping_cart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/utility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduleExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="testing sys">
+      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/moduleExercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleExercise.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +92,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/rebec/PycharmProjects/PythonProject/Advanced 6 - Modules",
+    "last_opened_file_path": "C:/Users/rebec/PycharmProjects/PythonProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,11 +105,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rebec\PycharmProjects\PythonProject" />
       <recent name="C:\Users\rebec\PycharmProjects\PythonProject\Advanced 6 - Modules" />
       <recent name="C:\Users\rebec\PycharmProjects\PythonProject\Basics" />
-      <recent name="C:\Users\rebec\PycharmProjects\PythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rebec\PycharmProjects\PythonProject\Advanced 6 - Modules" />
       <recent name="C:\Users\rebec\PycharmProjects\PythonProject\Advanced 6 - Modules\shopping\more_shopping" />
       <recent name="C:\Users\rebec\PycharmProjects\PythonProject\Advanced 6 - Modules\shopping2" />
       <recent name="C:\Users\rebec\PycharmProjects\PythonProject" />
@@ -173,7 +166,7 @@
       <workItem from="1764987288238" duration="24443000" />
       <workItem from="1765509101407" duration="20423000" />
       <workItem from="1765857954329" duration="36048000" />
-      <workItem from="1766438416977" duration="11220000" />
+      <workItem from="1766438416977" duration="11949000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out pycharms github integration">
       <option name="closed" value="true" />
@@ -271,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766438484963</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="testing sys">
+      <option name="closed" value="true" />
+      <created>1766623363455</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766623363455</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +290,8 @@
     <MESSAGE value="Error Handling" />
     <MESSAGE value="Generator section" />
     <MESSAGE value="testing new pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing new pycharm" />
+    <MESSAGE value="testing sys" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing sys" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,10 +310,6 @@
           <url>file://$PROJECT_DIR$/Advanced 6 - Modules/main.py</url>
           <line>2</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Advanced 6 - Modules/builtin_modules.py</url>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
