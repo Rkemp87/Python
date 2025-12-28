@@ -1,7 +1,7 @@
 import sys
-import random
+from random import randint
 
-random_number = random.randint(sys.argv[1],sys.argv[2])
+random_number = randint(int(sys.argv[1]), int(sys.argv[2]))
 print(random_number)
 
 while True:

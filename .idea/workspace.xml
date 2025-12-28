@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="testing sys">
-      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/moduleExercise.py" afterDir="false" />
+    <list default="true" id="d722ba1f-c2ef-4e39-bdfb-2c399bbd34c5" name="Changes" comment="module exercise">
+      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/thirdparty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced 6 - Modules/usefulModules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debugging.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleExercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced 6 - Modules/moduleExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced 6 - Modules/moduleExercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +33,16 @@
     &quot;assignee&quot;: &quot;Rkemp87&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rkemp87/Python.git",
-    "accountId": "8555c110-3040-445c-9377-ece9aa0a1e03"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rkemp87/Python.git&quot;,
+    &quot;accountId&quot;: &quot;8555c110-3040-445c-9377-ece9aa0a1e03&quot;
   }
-}]]></component>
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -47,12 +54,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.about_io.executor": "Run",
     "Python.adventCodeDay1.executor": "Run",
     "Python.basicmath.executor": "Run",
     "Python.builtin_modules.executor": "Run",
     "Python.catExercise.executor": "Run",
     "Python.comprehensionsExercise.executor": "Run",
     "Python.conditional_logic.executor": "Run",
+    "Python.debugging.executor": "Run",
     "Python.decoratorExercise.executor": "Run",
     "Python.decorators.executor": "Run",
     "Python.dictionary.executor": "Run",
@@ -77,14 +86,18 @@
     "Python.oop.executor": "Run",
     "Python.password_checker.executor": "Run",
     "Python.petsEverywhereExercise.executor": "Run",
+    "Python.pyjokes.executor": "Run",
     "Python.range.executor": "Run",
     "Python.set.executor": "Run",
     "Python.shopping_cart.executor": "Run",
     "Python.strings.executor": "Run",
     "Python.tesla_exercise.executor": "Run",
+    "Python.thirdparty.executor": "Run",
     "Python.tricky_counter.executor": "Run",
     "Python.tuples.executor": "Run",
+    "Python.usefulModules.executor": "Run",
     "Python.walrus_operator.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -98,7 +111,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -166,7 +179,8 @@
       <workItem from="1764987288238" duration="24443000" />
       <workItem from="1765509101407" duration="20423000" />
       <workItem from="1765857954329" duration="36048000" />
-      <workItem from="1766438416977" duration="11949000" />
+      <workItem from="1766438416977" duration="15643000" />
+      <workItem from="1766800918411" duration="8671000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out pycharms github integration">
       <option name="closed" value="true" />
@@ -272,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766623363455</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="module exercise">
+      <option name="closed" value="true" />
+      <created>1766624468120</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766624468120</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +313,8 @@
     <MESSAGE value="Generator section" />
     <MESSAGE value="testing new pycharm" />
     <MESSAGE value="testing sys" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing sys" />
+    <MESSAGE value="module exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="module exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,19 +334,25 @@
           <line>2</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced 6 - Modules/moduleExercise.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$errors.coverage" NAME="errors Coverage Results" MODIFIED="1766292612522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 4 - Error Handling" />
     <SUITE FILE_PATH="coverage/PythonProject$range.coverage" NAME="range Coverage Results" MODIFIED="1765069434443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$errors.coverage" NAME="errors Coverage Results" MODIFIED="1766292612522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 4 - Error Handling" />
     <SUITE FILE_PATH="coverage/PythonProject$functionalProgramming.coverage" NAME="functionalProgramming Coverage Results" MODIFIED="1765941426847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
     <SUITE FILE_PATH="coverage/PythonProject$petsEverywhereExercise.coverage" NAME="petsEverywhereExercise Coverage Results" MODIFIED="1765670560958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 1" />
     <SUITE FILE_PATH="coverage/PythonProject$functions.coverage" NAME="functions Coverage Results" MODIFIED="1765342533956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$listComprehensions.coverage" NAME="listComprehensions Coverage Results" MODIFIED="1766112207342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
     <SUITE FILE_PATH="coverage/PythonProject$mro.coverage" NAME="mro Coverage Results" MODIFIED="1765775752703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 1" />
     <SUITE FILE_PATH="coverage/PythonProject$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1764565890709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$moduleExercise.coverage" NAME="moduleExercise Coverage Results" MODIFIED="1766623273169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$moduleExercise.coverage" NAME="moduleExercise Coverage Results" MODIFIED="1766624540698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules" />
+    <SUITE FILE_PATH="coverage/PythonProject$pyjokes.coverage" NAME="pyjokes Coverage Results" MODIFIED="1766713637210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules" />
     <SUITE FILE_PATH="coverage/PythonProject$tesla_exercise.coverage" NAME="tesla_exercise Coverage Results" MODIFIED="1765239292140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$oop.coverage" NAME="oop Coverage Results" MODIFIED="1765774452461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 1" />
     <SUITE FILE_PATH="coverage/PythonProject$builtin_modules.coverage" NAME="builtin_modules Coverage Results" MODIFIED="1766621645770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules" />
@@ -332,10 +361,13 @@
     <SUITE FILE_PATH="coverage/PythonProject$decoratorExercise.coverage" NAME="decoratorExercise Coverage Results" MODIFIED="1766208239999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 3 - Decorators" />
     <SUITE FILE_PATH="coverage/PythonProject$shopping_cart.coverage" NAME="shopping_cart Coverage Results" MODIFIED="1766618978272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules/shopping/more_shopping" />
     <SUITE FILE_PATH="coverage/PythonProject$hihi.coverage" NAME="hihi Coverage Results" MODIFIED="1764048307745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$thirdparty.coverage" NAME="thirdparty Coverage Results" MODIFIED="1766713730921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules" />
     <SUITE FILE_PATH="coverage/PythonProject$loops.coverage" NAME="loops Coverage Results" MODIFIED="1764988923096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1766619014907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1766801198899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules" />
     <SUITE FILE_PATH="coverage/PythonProject$mapFilterZipReduceExercise.coverage" NAME="mapFilterZipReduceExercise Coverage Results" MODIFIED="1765943037598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
     <SUITE FILE_PATH="coverage/PythonProject$function_exercise.coverage" NAME="function_exercise Coverage Results" MODIFIED="1765245182214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$usefulModules.coverage" NAME="usefulModules Coverage Results" MODIFIED="1766802149259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 6 - Modules" />
+    <SUITE FILE_PATH="coverage/PythonProject$about_io.coverage" NAME="about_io Coverage Results" MODIFIED="1766898689283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$tricky_counter.coverage" NAME="tricky_counter Coverage Results" MODIFIED="1764989150438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$password_checker.coverage" NAME="password_checker Coverage Results" MODIFIED="1764232701884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1764482462128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -343,6 +375,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$extendingListExercise.coverage" NAME="extendingListExercise Coverage Results" MODIFIED="1765768821981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 1" />
     <SUITE FILE_PATH="coverage/PythonProject$generators.coverage" NAME="generators Coverage Results" MODIFIED="1766386190137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 5 - Generators" />
     <SUITE FILE_PATH="coverage/PythonProject$set.coverage" NAME="set Coverage Results" MODIFIED="1764705537884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$debugging.coverage" NAME="debugging Coverage Results" MODIFIED="1766897094089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$lambdaExpressions.coverage" NAME="lambdaExpressions Coverage Results" MODIFIED="1766030867020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced 2 Functional Programming" />
     <SUITE FILE_PATH="coverage/PythonProject$conditional_logic.coverage" NAME="conditional_logic Coverage Results" MODIFIED="1764886799302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$walrus_operator.coverage" NAME="walrus_operator Coverage Results" MODIFIED="1765340159555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
